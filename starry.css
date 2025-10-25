@@ -1,0 +1,100 @@
+ body {
+  background: #060432 url(starbg.gif)repeat; width 400px; height 300px;
+  cursor: url(cosmica.cur), auto;
+}
+
+
+@font-face {
+  font-family: Aquila;
+src: url(Aqila-DemoVersion-Regular.otf);
+}
+
+h1 {
+  font-family: "Aquila","Courier New";
+  color: #F3C47D;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Lucidia Console","Courier New";
+  color: #F5DD90;
+  text-align: center;
+}
+
+
+p {
+  font-family: "Lucidia Console","Courier New";
+  font-size: 14px;
+  color: #F5DD90;
+}
+
+marquee {
+  color: #F5DD90;
+  font-family: "Lucidia Console","Courier New";
+  font-size: 13px;
+}
+
+img {
+   border-radius:5px;
+   border: 2px solid #DD5E98;
+}
+
+div {
+   margin: auto;
+   background-color: #0A014F;
+   padding:7px;
+}
+
+#containment {
+   background:transparent;
+   width:800px;
+   padding:5px;
+   display: flex;
+}
+
+#navigation1 {
+   height: 20px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top:2px solid #221299;
+    border-left:1px solid #221299;
+    border-right:1px solid #221299;
+   line-height: 5px;
+   width:700px;
+}
+
+#content1 {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom: 2px solid #221299;
+    border-left: 1px solid #221299;
+    border-right: 1px solid #221299;
+   height:200px;
+   width:526px;
+   position:relative;
+    left:14px;
+}
+
+#content2 {
+    border-radius: 25px;
+     border-bottom: 2px solid #221299;
+     border-top: 2px solid #221299;
+     border-left: 1px solid #221299;
+     border-right: 1px solid #221299;
+   width:700px;
+}
+
+hr {
+   border:none;
+   height: 1px;
+   background-color:#DD5E98;
+   margin: 5px auto;
+   width: 750px;
+}
+
+
+
+footer {
+   text-align: center;
+   padding: 8px;
+}
