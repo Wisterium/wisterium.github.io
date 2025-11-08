@@ -12,7 +12,9 @@
         "She's alone in the new pollution...",
         "Don't think I'm all in this world...The camera won't let me roll..",
         "We'll meet again, don't know where, don't know when, but I know we'll meet again some sunny day...",
-        "Days blend to one, when I'm on the right beaches and the walls painted white, they tell me all the secrets..."
+        "Days blend to one, when I'm on the right beaches and the walls painted white, they tell me all the secrets...",
+        "Girls who are boys who like boys to be girls... Always should be someone you really love <3",
+        "I like my randomized text like I like my coffee... (insert laugh track here)"
     ];
 
     const randomIndex = Math.floor(Math.random() * messages.length);
