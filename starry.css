@@ -3,6 +3,10 @@
   cursor: url(cosmica.cur), auto;
 }
 
+a:hover {
+  cursor: url('select.cur'), pointer;
+}
+
 
 @font-face {
   font-family: Aquila;
@@ -80,6 +84,7 @@ a {
    width:526px;
    position:relative;
     left:14px;
+   overflow:auto;
 }
 
 #content2 {
@@ -100,6 +105,16 @@ a {
     position:relative;
 }
 
+#scrollbox {
+    border-radius: 25px;
+     border-bottom: 2px solid #221299;
+     border-top: 2px solid #221299;
+     border-left: 1px solid #221299;
+     border-right: 1px solid #221299;
+    position:relative;
+    overflow:auto;
+}
+
 hr {
    border:none;
    height: 1px;
@@ -113,4 +128,5 @@ hr {
 footer {
    text-align: center;
    padding: 8px;
+   cursor: url(cosmica.cur), auto;
 }
